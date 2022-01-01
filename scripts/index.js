@@ -1,7 +1,3 @@
-function cchange(){
-    document.getElementById('p1').style.color = "rgb(250,155,200)";
-}
-
 function viewDesc(){
     var x = document.defaultView;
     var w = innerWidth;
