@@ -44,7 +44,7 @@ div.gallery img {
 @media only screen and (max-width : 500px) {
 	.responsive{
 		width: 75%;
-		float: center;
+		float: left;
 		margin: 3px 0px;
 	}
 	
