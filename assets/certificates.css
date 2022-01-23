@@ -84,11 +84,12 @@ div.header{
 	  margin: 8px 8px 8px ;
 }
 div.header img{
-	width: 100px;
-	height: 100px;
-	box-shadow: 8px 8px blue;
-	margin-right: 10px;
-} 
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
 .topnav{
 	overflow: hidden;
 	margin: 8px;
