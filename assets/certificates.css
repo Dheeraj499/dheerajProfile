@@ -45,14 +45,14 @@ div.gallery img {
 	width: 25%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
 	.responsive{
 		width: 50%;
 		margin: 6px 0px;
 		float: left;
 	}
 }
-@media only screen and (max-width : 500px) {
+@media only screen and (max-width : 700px) {
 	.responsive{
 		width: 75%;
 		float: left;
@@ -61,7 +61,7 @@ div.gallery img {
 	
 }
 
-@media only screen and (max-width : 300px) {
+@media only screen and (max-width : 500px) {
 	.responsive{
 		width: 100%;
 		float: left;
@@ -84,8 +84,8 @@ div.header{
 	  margin: 8px 8px 8px ;
 }
 div.header img{
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 	box-shadow: 8px 8px blue;
 	margin-right: 10px;
 } 
