@@ -1,34 +1,33 @@
 body {
-	
+	background-color: #d3e4;
 	font-family : courier new ;
-	margin: 50px 50px 50px 50px;
+	margin: 20px 20px 20px 20px;
     padding: 10px 10px 10px 10px;
 }
 
-h1 {
-	text-align: center;
-	border: 3px dotted #454545;
-}
-
 #p1{
-	color: #34def3;
+	color: #4b7acf;
 }
 .desc{
 	margin-top: 8px;
 	position: relative;
 	box-sizing: border-box;
-	border: 3px #454545;
+	border-color: black;
+	margin: 8px 8px 8px 8px;
 	border-style: inset double outset double;
+	border-radius: 8px;
 	text-align: center;
 	font-family: verdana;
 }
 
 div.gallery{
 	border: 2px solid #0034ff;
+	margin: 8px 8px 8px 8px;
+	
 }
 
 div.gallery:hover{
-	border: 5px solid #32efab;
+	border: 5px solid #eb7d24;
 }
 
 div.gallery img {
@@ -75,4 +74,31 @@ div.gallery img {
 	content: "";
 	display: table;
 	clear: both;
-  }
+}
+
+div.header{
+	  text-align: center;
+	  font-size: 30px;
+	  height: 300px;
+	  border: 3px dotted #454545;
+	  margin: 8px 8px 8px ;
+}
+div.header img{
+	width: 200px;
+	height: 200px;
+	box-shadow: 8px 8px blue;
+	margin-right: 10px;
+} 
+.topnav{
+	overflow: hidden;
+	margin: 8px;
+	background-color: #666;
+	width: 1000px;
+}
+.topnav a{
+	text-decoration: none;
+	float: left;
+	padding: 8px 8px;
+	display: block;
+	text-align: center;
+}
