@@ -88,6 +88,7 @@ div.header img{
     float: right;
     margin-right: 50px;
     margin-bottom: 30px;
+	box-shadow: #454545;
 }
 .topnav{
 	overflow: hidden;
