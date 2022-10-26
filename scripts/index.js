@@ -1,6 +1,6 @@
-function viewDesc(){
-    var x = document.defaultView;
-    var w = innerWidth;
-    var h = innerHeight;
-    document.getElementById('viewdsc').innerHTML = "Width : "+w+"  "+ "Height : " + h;
+function imgView() {
+    
+   let image = document.getElementById("profilePic");
+   image.src="assets/img/Dheeraj.png" 
+    
 }
