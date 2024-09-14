@@ -2,7 +2,7 @@
 
 This is my personal portfolio website showcasing my projects, certifications, resume, and a way to contact me.
 
-You can view the live website [here](https://your-username.github.io/my-portfolio/).
+You can view the live website [here](https://dheeraj499.github.io/dheerajProfile/).
 
 ## Table of Contents
 - [About](#about)
