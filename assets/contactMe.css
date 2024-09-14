@@ -1,0 +1,53 @@
+body {
+    background: -webkit-linear-gradient(royalblue, white); /* For WebKit browsers */
+    background: -moz-linear-gradient(royalblue, white); /* For Firefox */
+    background: -o-linear-gradient(royalblue, white); /* For Opera */
+    background: -ms-linear-gradient(royalblue, white); /* For Internet Explorer 10+ */
+    background: linear-gradient(royalblue, white); /* Standard syntax */
+    background-size: cover; /* Ensure gradient covers the viewport */
+    background-attachment: fixed; /* Keeps the gradient fixed during scrolling */
+    font-family: 'Times New Roman';
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    color: black;
+    min-height: 100vh; /* Ensure body fills the entire viewport height */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+textarea {
+    resize: vertical;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}

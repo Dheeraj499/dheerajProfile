@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+	background: -webkit-linear-gradient(royalblue,black);
+	font-family : 'Times New Roman' ;
+	margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+	color: black;
+    /* background-color: #f4f4f4; */
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+section#introduction {
+    margin-bottom: 2rem;
+}
+
+.portfolio-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+.portfolio-item h3 {
+    margin-top: 0;
+}
+
+.portfolio-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.portfolio-item a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer nav ul {
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
