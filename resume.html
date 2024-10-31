@@ -1,27 +1,138 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Portfolio</title>
-        <meta name="viewport" content="width-device-width, initial-scale = 1.0">
-        <link rel="stylesheet" href="assets/portfolioStyle.css">
-        <link rel="stylesheet" href="assets/contactMe.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="assets/portfolioStyle.css">
+    <link rel="stylesheet" href="assets/resume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>My Resume</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="certificate.html">Certificates</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <body>
-        <header>
-            <h1>My Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="certificate.html">Certificates</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+    <section id="profile" class="section">
+        <h2><i class="fas fa-user"></i> Profile</h2>
+        <p> Embedded Engineer with proficiency in C programming and comprehensive knowledge of serial communication protocols (I2C, SPI, UART) and CAN. 
+            Skilled in interpreting schematics and component datasheets, and proficient in developing low-level code based on chip manuals. 
+            Recognized for a quick learning ability and aptitude for adopting new technologies. 
+            Experienced with <strong> GNU GCC Cross Compiler Toolchains</strong>, multimeters, tachometers, and other testing tools in real-time environments.</p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2><i class="fas fa-tools"></i> Skill Set</h2>
+        <ul>
+            <li>Embedded C, C, Python, C++, Qt/C++, M Scripting, VHDL, CAPL Scripting</li>
+            <li>MATLAB, Anaconda, Android Studio, GitHub, QT Creator</li>
+            <li>I2C, UART, CAN, J1939, Mil STD 1553</li>
+        </ul>
+    </section>
+
+    <section id="education" class="section">
+        <h2><i class="fas fa-graduation-cap"></i> Academic Profile</h2>
+        <ul>
+            <li>B.Tech in Electronics and Communication Engineering, Universal College of Engineering and Technology, 2022 - 70% CGPA</li>
+            <li>Intermediate, Narayana Junior College, 2016 - 84%</li>
+            <li>S.S.C, Jubilee English Medium High School, Kolakaluru - 85%</li>
+        </ul>
+    </section>
+    <section id="work-experience" class="section">
+        <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+        <div class="experience-item">
+            <h3>Automotive Robotics India Pvt. Ltd.</h3>
+            <p><strong>Role:</strong> Embedded Engineer</p>
+            <p><strong>Duration:</strong> May 2023 - Present</p>
+            <p>Implementing ASPICE standards in software integration and unit testing, enhancing vehicle-to-vehicle communication stacks, and developing automation tools using Qt and Python.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2><i class="fas fa-tasks"></i> Projects</h2>
+        
+        <div class="project-item">
+            <h3>ASPICE 3.1 SSIT (Software Integration Testing)</h3>
+            <p><strong>Tools:</strong> Tessy, Beyond Compare</p>
+            <p><strong>Software:</strong> Embedded C</p>
+            <p><strong>Duration:</strong> Ongoing</p>
+            <p>Developing and executing integration tests for ASPICE compliance, with full traceability documentation.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>ASPICE 3.1 SWUT (Software Unit Testing)</h3>
+            <p><strong>Tools:</strong> Tessy, Beyond Compare</p>
+            <p><strong>Software:</strong> Embedded C</p>
+            <p><strong>Duration:</strong> 2 Months</p>
+            <p>Implementing ASPICE 3.1-compliant Software Unit Testing (SWE.4) to validate individual software components with automated tests and CI/CD integration.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>Trailer Light Controller</h3>
+            <p><strong>Tools:</strong> S32 Design Studio, Free Master Runtime Debugger</p>
+            <p><strong>Software:</strong> Embedded C</p>
+            <p><strong>Duration:</strong> 3 Months</p>
+            <p>Developing a Vehicle-to-Vehicle (V2V) communication stack based on 3GPP standards to enhance road safety through effective vehicle communication.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>Vehicle to Vehicle Communication</h3>
+            <p><strong>Tools:</strong> VS Code, Raspberry Pi, Linux, RTOS</p>
+            <p><strong>Software:</strong> Embedded C</p>
+            <p><strong>Duration:</strong> 4 Months</p>
+            <p>Creating a V2V communication stack ensuring safety applications like collision avoidance and emergency vehicle alerts using 3GPP standards.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>QT Display Automation</h3>
+            <p><strong>Tools:</strong> QT</p>
+            <p><strong>Software:</strong> C++</p>
+            <p><strong>Duration:</strong> 5 Months</p>
+            <p>Developing a library for UI applications that sends UI information over TCP/IP to a Python Automation Library for UI testing and automation.</p>
+        </div>
+    </section>
+
+    <section id="internship" class="section">
+        <h2><i class="fas fa-user-graduate"></i> Internship & Academic Project</h2>
+        
+        <div class="experience-item">
+            <h3>Defense Research and Development Laboratory (DRDL)</h3>
+            <p><strong>Role:</strong> Intern</p>
+            <p><strong>Duration:</strong> May - August 2023</p>
+            <p><strong>Overview:</strong> Completed internship while working on the Automation of Missile Checkout System project.</p>
+        </div>
     
-        <footer>
-            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-        </footer>
-    </body>
+        <div class="project-item">
+            <h3>Automation Of Missile Checkout System</h3>
+            <p><strong>Tools:</strong> QT C++</p>
+            <p><strong>Duration:</strong> 3 Months</p>
+            <p><strong>Description:</strong> The objective of this project is to design and develop checkout software for the evaluation of integrated weapon systems, 
+                involving testing the subsystems of the weapon. These subsystems interface with each other and external ground systems using various interfaces. 
+                The auto launch sequence is defined as a countdown process that takes over manual execution of events across a set of subsystems, 
+                allowing the missile to take off smoothly. This project includes the development of an auto launch sequence simulator, 
+                which validates real-time execution of events for missile launch.</p>
+            <p><strong>Roles and Responsibilities:</strong></p>
+            <ul>
+                <li>Designed automation architecture.</li>
+                <li>Developed an automated checkout system.</li>
+                <li>Created application code according to requirements.</li>
+                <li>Tested the written code on real-time hardware.</li>
+                <li>Validated outputs using MATLAB.</li>
+                <li>Generated reports based on observations.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
 </html>
